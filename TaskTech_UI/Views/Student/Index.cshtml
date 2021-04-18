@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TaskTech_ApplicationCore.DTO.VmStudent>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center"><i class="fas fa-user text-success"></i> Student List</h1>
+<div class="row" style="padding:20px;">
+    <select class="form-control  col-md-4" asp-items="@(new SelectList(ViewBag.CoursesList,"Id","Name"))"></select>
+
+    <input class="form-control col-md-4" id="myText" name="term" type="search" placeholder="search" style="display: inline;" />
+    <button class="btn btn-outline-success  my-2 my-sm-0" type="button">Search</button>
+
+</div>
+
+
+
+
+<div id="view-all">
+    @await Html.PartialAsync("_IndexAll", Model)
+</div>
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $("button").click(function(){
+          // alert(document.getElementById("myText").value);
+            $.ajax({
+            type: "GET",
+            url: "@Url.Action("Search", "Student")",
+            data: { term: document.getElementById("myText").value, },
+            success: function (res) {
+                $('#view-all').html(res.html);
+            }
+        });
+        });
+
+
+        ///DropDown Change Function
+        $('select').on('change', function() {
+             
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("SearchCourse", "Student")",
+                data: { id: this.value },
+                success: function (res) {
+                    $('#view-all').html(res.html);
+                }
+            });
+        });
+      
+    </script>
+}

@@ -1,0 +1,8 @@
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\bin\Debug\netcoreapp3.1\TaskTech-ApplicationCore.deps.json
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\bin\Debug\netcoreapp3.1\TaskTech-ApplicationCore.dll
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\bin\Debug\netcoreapp3.1\TaskTech-ApplicationCore.pdb
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\obj\Debug\netcoreapp3.1\TaskTech-ApplicationCore.csprojAssemblyReference.cache
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\obj\Debug\netcoreapp3.1\TaskTech-ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\obj\Debug\netcoreapp3.1\TaskTech-ApplicationCore.AssemblyInfo.cs
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\obj\Debug\netcoreapp3.1\TaskTech-ApplicationCore.dll
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-ApplicationCore\obj\Debug\netcoreapp3.1\TaskTech-ApplicationCore.pdb

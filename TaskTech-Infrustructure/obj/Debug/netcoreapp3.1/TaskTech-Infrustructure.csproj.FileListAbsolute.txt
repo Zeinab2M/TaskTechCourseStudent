@@ -1,0 +1,13 @@
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\bin\Debug\netcoreapp3.1\TaskTech-Infrustructure.deps.json
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\bin\Debug\netcoreapp3.1\TaskTech-Infrustructure.runtimeconfig.json
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\bin\Debug\netcoreapp3.1\TaskTech-Infrustructure.runtimeconfig.dev.json
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\bin\Debug\netcoreapp3.1\TaskTech-Infrustructure.dll
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\bin\Debug\netcoreapp3.1\TaskTech-Infrustructure.pdb
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\bin\Debug\netcoreapp3.1\TaskTech-ApplicationCore.dll
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\bin\Debug\netcoreapp3.1\TaskTech-ApplicationCore.pdb
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\obj\Debug\netcoreapp3.1\TaskTech-Infrustructure.csprojAssemblyReference.cache
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\obj\Debug\netcoreapp3.1\TaskTech-Infrustructure.AssemblyInfoInputs.cache
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\obj\Debug\netcoreapp3.1\TaskTech-Infrustructure.AssemblyInfo.cs
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\obj\Debug\netcoreapp3.1\TaskTech-Infrustructure.csproj.CopyComplete
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\obj\Debug\netcoreapp3.1\TaskTech-Infrustructure.dll
+C:\Users\zeinab\Source\Repos\TaskTech\TaskTech-Infrustructure\obj\Debug\netcoreapp3.1\TaskTech-Infrustructure.pdb

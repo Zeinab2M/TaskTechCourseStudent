@@ -1,0 +1,43 @@
+﻿@model IEnumerable<TaskTech_ApplicationCore.DTO.VmStudent>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th>
+                Course Name
+            </th>
+            <th style="text-align:center">
+                <a onclick="showInPopUp('@Url.Action("CreateEdit","Student",null,Context.Request.Scheme)','New Student')" class="btn btn-success"><i class="fas fa-plus-circle text-white"></i></a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Course.Name)
+                </td>
+                <td style="text-align:center">
+                    <a onclick="showInPopUp('@Url.Action("CreateEdit","Student",new { id=item.Id},Context.Request.Scheme)','Update')" class="btn btn-info text-white"><i class="fas fa-edit text-white"></i> </a>                    |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info text-white"><i class="fas fa-cogs text-white"></i></a> |
+                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">                       
+                        <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
